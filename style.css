@@ -1,0 +1,43 @@
+* {
+    border: none;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(161, 70, 9);
+}
+
+.divProfile {
+    color: aliceblue;
+    margin: 20px 100px 20px 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titleName::after {
+    content: "";
+    display: flex;
+    flex-wrap: wrap;
+    width: 16em;
+    height: 8px;
+    margin: -15px 0 8px 0;
+    background: #fb5;
+}
+
+.imageProfile {
+    height: 200px;
+    width: 200px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+.divInfos {
+    color: aliceblue;
+    margin: 20px 100px 20px 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divHobbies {
+    color: aliceblue;
+    margin: 20px 100px 20px 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
