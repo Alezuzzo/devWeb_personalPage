@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: rgb(161, 70, 9);
+    background-image: url("./img/00000IMG_00000_BURST20200509063227386_COVER.jpg");
+    background-size:cover;
 }
 
 .maxHeight {
