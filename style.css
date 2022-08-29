@@ -15,13 +15,17 @@ body {
     flex-flow: wrap;
 }
 
+.titleName {
+    font-size: 1.9em;
+}
+
 .titleName::after {
     content: "";
     display: flex;
     flex-wrap: wrap;
     width: 16em;
     height: 8px;
-    margin: -15px 0 8px 0;
+    margin: -14px 0 8px 0;
     background: #fb5;
 }
 
@@ -35,26 +39,34 @@ body {
 .divProfile {
     width: 35%;
     height: 65%;
-    background-color: aquamarine;
     color: aliceblue;
     padding: 20px 100px 20px 100px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .divInfos {
-    background-color: #fb5;
     width: 35%;
-    height: 50%;
+    height: 55%;
     color: aliceblue;
     padding: 50px 100px 50px 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .divHobbies {
-    background-color: blue;
-    width: 35%;
-    height: 100vh;
+    width: 100%;
+    height: 400px;
     color: aliceblue;
     padding: 20px 100px 20px 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divHobbies .titleHobbies {
+    text-align: center;
+    color: rgb(255, 166, 31);
+    margin: 20px 0 20px 0;
+}
+
+.subtitleDivs {
+    color: #fb5;
+    margin: 10px 0 10px 0;
 }
