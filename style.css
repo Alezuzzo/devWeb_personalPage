@@ -5,6 +5,8 @@
 
 body {
     background-image: url(./img/backgrounVector.svg);
+    background-repeat: no-repeat;
+    background-size: 1380px;
     background-color: #3C3833;
 }
 
@@ -40,6 +42,12 @@ body {
     stroke: black;
 }
 
+.listaProf {
+    list-style: circle;
+    margin-bottom: 80px;
+
+}
+
 .divProfile {
     width: 35%;
     height: 65%;
@@ -56,9 +64,18 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.divInfos a {
+    text-decoration: none;
+    color: #000;
+}
+
+.divInfos a:hover {
+    color: #f73858;
+}
+
 .divHobbies {
     width: 100%;
-    height: 400px;
+    height: 480px;
     color: rgb(0, 0, 0);
     padding: 100px 100px 20px 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -80,6 +97,22 @@ body {
     height: 280px;
     width: 250px;
     border-radius: 20px;
+    margin: 0 120px 0 120px;
+}
+
+.cardHobbies:hover {
+    background-color: #1DB954;
+}
+
+.cardHobbies-2 {
+    background-color: #FEBD71;
+    height: 280px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.cardHobbies-2:hover {
+    background-color: aqua;
 }
 
 .cardTitle {
@@ -90,12 +123,64 @@ body {
     width: 100px;
     border-radius: 0px 20px 20px 0;
     position: absolute;
-    top: 640px;
+    top: 660px;
 
+}
+
+.cardTitle-2 {
+    font-size: 1.2em;
+    background-color: #3C3833;
+    color: #FEBD71;
+    padding: 5px 5px 5px 30px;
+    width: 150px;
+    border-radius: 0px 20px 20px 0;
+    position: absolute;
+    top: 660px;
+    font-size: 15px;
 }
 
 .imageMusica {
     height: 250px;
     width: 250px;
     margin-top: 15px;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.cardsContainer p {
+    color: #FFF;
+    font-size: 14px;
+    width: 60vh;
+    margin: 110px 0 0 0;
+}
+
+.footerDev {
+    position: fixed;
+    height: 30px;
+    background-color: #FEBD71;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.footerDev p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footerDev a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footerDev:hover {
+    background-color: #3C3833;
+    color: #FEBD71;
 }
