@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: #FCE4C8;
+    background-image: url(./img/backgrounVector.svg);
+    background-color: #3C3833;
 }
 
 .maxHeight {
@@ -72,4 +73,29 @@ body {
 .subtitleDivs {
     color: rgb(0, 0, 0);
     margin: 10px 0 10px 0;
+}
+
+.cardHobbies {
+    background-color: #FEBD71;
+    height: 280px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.cardTitle {
+    font-size: 1.2em;
+    background-color: #3C3833;
+    color: #FEBD71;
+    padding: 5px 5px 5px 30px;
+    width: 100px;
+    border-radius: 0px 20px 20px 0;
+    position: absolute;
+    top: 640px;
+
+}
+
+.imageMusica {
+    height: 250px;
+    width: 250px;
+    margin-top: 15px;
 }
