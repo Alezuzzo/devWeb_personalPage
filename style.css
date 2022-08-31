@@ -4,17 +4,16 @@
 }
 
 body {
-    background-image: url(./img/backgrounVector.svg);
-    background-repeat: no-repeat;
-    background-size: 1380px;
     background-color: #3C3833;
 }
 
 .maxHeight {
+    background-image: url(./img/backgroundVector.svg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    min-height: 100vh;
+    height: 70vh;
     flex-flow: wrap;
 }
 
@@ -23,7 +22,7 @@ body {
     font-size: 0.8em;
     position: absolute;
     top: 220px;
-    right: 800px;
+    right: 1120px;
 }
 
 .titleName {
@@ -31,7 +30,7 @@ body {
     font-size: 2em;
     position: absolute;
     top: 70px;
-    right: 800px;
+    right: 1120px;
 }
 
 .imageProfile {
@@ -49,10 +48,11 @@ body {
 }
 
 .divProfile {
-    width: 35%;
+    width: 25%;
     height: 65%;
     color: rgb(0, 0, 0);
-    padding: 20px 100px 20px 100px;
+    padding: 20px 100px 20px 300px;
+    text-align: left;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -60,7 +60,8 @@ body {
     width: 35%;
     height: 55%;
     color: rgb(0, 0, 0);
-    padding: 50px 100px 50px 100px;
+    padding: 60px 100px 50px 200px;
+    text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -75,16 +76,20 @@ body {
 
 .divHobbies {
     width: 100%;
-    height: 480px;
+    height: 380px;
     color: rgb(0, 0, 0);
-    padding: 100px 100px 20px 100px;
+    margin: -150px 0 0 0 ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .divHobbies .titleHobbies {
     text-align: center;
     color: rgb(0, 0, 0);
-    margin: 20px 0 20px 0;
+    margin-bottom: 40px;
+}
+
+.listaProf {
+    margin-bottom: 120px;
 }
 
 .subtitleDivs {
@@ -97,7 +102,7 @@ body {
     height: 280px;
     width: 250px;
     border-radius: 20px;
-    margin: 0 120px 0 120px;
+    margin: 0 140px 0 100px;
 }
 
 .cardHobbies:hover {
@@ -155,7 +160,7 @@ body {
     color: #FFF;
     font-size: 14px;
     width: 60vh;
-    margin: 110px 0 0 0;
+    margin: 110px 0 0 300px;
 }
 
 .footerDev {
@@ -183,4 +188,80 @@ body {
 .footerDev:hover {
     background-color: #3C3833;
     color: #FEBD71;
+}
+
+@media (max-width: 1650px) {
+    .maxHeight {
+        background-size: 2000px;
+    }
+
+    .divProfile {
+        height: 65%;
+        width: 35%;
+        margin: 10px 0 0 0;
+        padding: 5px 100px 20px 150px;
+    }
+
+    .pProfile {
+        width: 2000px;
+        font-size: 0.8em;
+        position: absolute;
+        top: 1px;
+        right: 1120px;
+    }
+    
+    .titleName {
+        width: 150px;
+        font-size: 1.3em;
+        right: 850px;
+    }
+    
+    .imageProfile {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px 5px 50px 5px;
+    }
+
+    .divInfos {
+        padding: 40px 50px 20px 0;
+    }
+
+    .listaProf {
+        margin-bottom: 24px;
+    }
+
+    .divHobbies {
+        
+        width: 920;
+        height: 450px;
+        color: rgb(0, 0, 0);
+        margin: 10px 0 0 0 ;
+
+    }
+
+    .divHobbies .titleHobbies {
+        color: #FEBD71;
+        text-align: left;
+        padding: 20px 0 0 150px;
+    }
+
+    .cardsContainer {
+        margin-top: 10px;
+    }
+    
+    .cardsContainer p {
+        color: #FFF;
+        font-size: 14px;
+        width: 460px;
+        margin: 0 0 0 150px;
+        padding-top: 120px;
+    }
+
+    .cardHobbies {
+        background-color: #FEBD71;
+        height: 280px;
+        width: 250px;
+        border-radius: 20px;
+        margin: 0 40px 0 20px;
+    }
 }
