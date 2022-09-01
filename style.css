@@ -249,6 +249,11 @@ body {
         margin-top: 10px;
     }
     
+    .containerCard{
+        display: flex;
+        flex-direction: row;
+    }
+
     .cardsContainer p {
         color: #FFF;
         font-size: 14px;
@@ -262,6 +267,98 @@ body {
         height: 280px;
         width: 250px;
         border-radius: 20px;
-        margin: 0 40px 0 20px;
+        margin: 0 40px 0 10px;
+    }
+}
+
+@media (max-width: 912px) {
+    .maxHeight {
+        background-size: 1920px;
+    }
+
+    .divProfile {
+        text-align: center;
+        height: 30vh;
+        width: 100vh;
+        margin: 100px 0 0 0;
+    }
+
+    .pProfile {
+        font-size: 0.8em;
+        position: absolute;
+        right: 1120px;
+    }
+    
+    .titleName {
+        width: 500px;
+        font-size: 1.3em;
+        right: 180px;
+    }
+    
+    .imageProfile {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .divInfos {
+        text-align: center;
+        padding: 40px 50px 20px 0;
+        height: 20vh;
+        width: 100vh;
+        margin: -150px 0 0 0;
+    }
+
+    .listaProf {
+        list-style: none;
+        margin-bottom: 24px;
+    }
+
+    .divHobbies {
+        background-color: #3C3833;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+        color: rgb(0, 0, 0);
+        margin: -120px 0 0 0;
+        padding: 10px 0 0 0;
+    }
+
+    .divHobbies .titleHobbies {
+        color: #FEBD71;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardsContainer p {
+        color: #FFF;
+        font-size: 14px;
+        width: 100%;
+        margin: 0;
+        padding: 120px 0 0 0;
+        text-align: center;
+    }
+
+    .containerCard {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        align-self: center;
+    }
+
+    .cardTitle {
+        top: 1150px;
+    }
+
+    .cardTitle-2 {
+        top: 1150px;
     }
 }
